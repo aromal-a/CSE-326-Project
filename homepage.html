@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Parking Reservation System</title>
+    <link rel="stylesheet" type="text/css" href="homepagecss.css">
+</head>
+<body>
+    <header>
+        <h1>Welcome to Parking Reservation</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="cslot.html">Home</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="reservation-form">
+            <h2>Check Available Parking Slots</h2>
+            <form id="reservationForm" action="park buttons.html" method="post">
+            <fieldset class="wrapper">
+                
+            
+                <label for="city">Select City:
+                <select name="city" id="city" required>
+                    <option value="Jalandhar">Jalandhar</option>
+                    <option value="Ludhiana">Ludhiana</option>
+                    <option value="phagwara">Phagwara</option>
+                </select></label>                                                               
+    
+            </fieldset>
+            <fieldset class="wrapper">
+                <label for="vehicle">Select Vehicle:
+                    <select name="city" id="city" required>
+                        <option value="Car">Car</option>
+                        <option value="Bike">Bike</option>
+                        <option value="Scooter">Scooter</option>
+                    </select>
+               
+                </label>
+            </fieldset>
+            <fieldset class="wrapper">
+                <label for="date">Select Date:
+                <input type="date" name="date" id="date" required>
+                </label>
+            </fieldset>
+            <fieldset class="wrapper">
+                <label for="time">Select Time:
+                <input type="time" name="time" id="time" required>
+                </label>
+            </fieldset>
+            <fieldset class="wrapper" id="dur">
+
+                <label for="duration">Select Duration(hr):
+                <input type="number" name="duration" id="duration" min="1" required>
+                </label>
+            </fieldset>
+                
+            <button type="submit" class="btn">Check Slots</button>
+            </fieldset>
+            </form>
+        </section>
+    </main>
+    
+    <footer>
+        <p>&copy; 2023 Parking Reservation System</p>
+    </footer>
+</body>
+</html>

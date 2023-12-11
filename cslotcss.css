@@ -1,0 +1,80 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-image: url("cslotbg2.jpg");
+  background-size: cover;
+}
+
+header {
+  text-align: center;
+  background: #333; 
+  color: #fff; 
+  padding: 5px;
+}
+
+
+nav ul {
+  list-style-type: none;
+  background-color: #333;
+  text-align: center;
+  padding: 5px;
+}
+
+nav ul li {
+  display: inline;
+  margin-right: 20px;
+}
+
+nav a {
+  text-decoration: none;
+  color: #fff;
+}
+h1{
+  text-align: center;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+.button-container{
+  border: 10px;
+  margin: auto; 
+  margin-top: 60px;
+  width: 75%;
+  display: flex;
+  justify-content: spa;
+  align-items:center;
+  height: 20vh;
+
+
+
+}
+
+ 
+
+.button-container button{
+  background-color: hsla(0, 100%, 100%, 0.9);
+  color:black;
+  margin: auto;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  height:30vh;
+  width: 30vh;
+  border: 3px solid rgb(155, 144, 164);
+  text-align: center;
+  font-weight: 500;
+  font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  font-size:x-large ;
+  border-radius: 10px;
+  cursor: pointer;
+  }
+  
+.button-container button:hover{
+  background-color:rgb(178, 172, 172,0.7);
+
+}
+a {
+  text-decoration: none;
+}
+

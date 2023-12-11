@@ -1,0 +1,47 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Set the font family for the entire page */
+body {
+    font-family: 'Poppins', sans-serif;
+    background-color: #f7f5f2;
+    text-align: center;
+    padding: 20px;
+}
+
+/* Style the heading */
+h1 {
+    font-size: 36px;
+    color: #333;
+    margin-bottom: 30px;
+}
+
+/* Style the list */
+ul {
+    list-style-type: none;
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Style list items */
+li {
+    font-size: 24px;
+    color: #b2744c;
+    margin: 20px;
+    padding: 10px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+    cursor: pointer;
+}
+
+/* Add hover effect to list items */
+li:hover {
+    background-color: #b2744c;
+    color: white;
+}

@@ -1,0 +1,47 @@
+.button-grid {
+    display: flex;
+    justify-content: center;
+}
+
+.section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px; 
+   
+}
+
+.button {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    display: block;
+    padding: 10px;
+    text-align: center;
+    background-color:black; 
+    color: #fff; 
+    text-decoration: none;
+    border: 2px solid whitesmoke; 
+    border-radius: 5px;
+    margin: 10px; 
+    transition: background-color 0.3s ease;
+    width:60px;
+    height:60px;
+  
+}
+.button a{
+    text-align: center;
+}
+
+.button:hover {
+    background-color: #2980b9; 
+}
+h1{
+    text-align: center;
+    color: whitesmoke;
+
+}
+#notavail{
+    background-color:blue;
+}
+body{
+    background-color:rgb(16, 0, 44);
+}

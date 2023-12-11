@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Button Grid</title>
+    <link rel="stylesheet" type="text/css" href="parkbuttonscss.css">
+</head>
+<body>
+    <h1>AVAILABLE PARKING SPACES</h1>
+    <div class="button-grid">
+        
+        <div class="section">
+            <a href='#' class='button' id="notavail" onclick="bookSpace('A1')">A1</a>
+            <a href='thanks.html' class='button' >A2</a>
+            <a href='thanks.html' class='button' >A3</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('A4')">A4</a>
+            <a href='thanks.html' class='button' >A5</a>
+            <a href='#' class='button' onclick="bookSpace('A6')">A6</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('A7')">A7</a>
+            <a href='#' class='button' onclick="bookSpace('A8')">A8</a>
+        </div>
+
+        <div class="section">
+            <a href='thanks.html' class='button' >B1</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('B2')">B2</a>
+            <a href='thanks.html' class='button' >B3</a>
+            <a href='thanks.html' class='button' >B4</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('B5')">B5</a>
+            <a href='thanks.html' class='button'>B6</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('B7')">B7</a>
+            <a href='thanks.html' class='button' >B8</a>
+        </div>
+
+        <div class="section">
+            <a href='#' class='button' id="notavail" onclick="bookSpace('C1')">C1</a>
+            <a href='thanks.html' class='button' >C2</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('C3')">C3</a>
+            <a href='thanks.html' class='button' >C4</a>
+            <a href='thanks.html' class='button' >C5</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('C6')">C6</a>
+            <a href='thanks.html' class='button' >C7</a>
+            <a href='thanks.html' class='button' >C8</a>
+        </div>
+
+        <div class="section">
+            <a href='thanks.html' class='button'>D1</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('D2')">D2</a>
+            <a href='thanks.html' class='button' >D3</a>
+            <a href='thanks.html' class='button' >D4</a>
+            <a href='thanks.html' class='button' >D5</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('D6')">D6</a>
+            <a href='thanks.html' class='button' >D7</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('D8')">D8</a>
+        </div>
+
+        <div class="section">
+            <a href='#' class='button' id="notavail" onclick="bookSpace('E1')">E1</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('E2')">E2</a>
+            <a href='thanks.html' class='button' >E3</a>
+            <a href='thanks.html' class='button' >E4</a>
+            <a href='thanks.html' class='button' >E5</a>
+            <a href='thanks.html' class='button' >E6</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('E7')">E7</a>
+            <a href='#' class='button' id="notavail" onclick="bookSpace('E8')">E8</a>
+        </div>
+    
+    </div>
+
+    <script>
+        function bookSpace(spaceName) {
+            var button = document.getElementById(spaceName.toLowerCase()); 
+            if (button && button.id.toLowerCase() === 'notavail') {
+                alert("Space " + spaceName + " is already booked!");
+            } else {
+                alert("Space " + spaceName + " is already booked!");
+                
+            }
+        }
+    </script>
+
+</body>
+</html>
